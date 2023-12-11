@@ -1,1 +1,1 @@
-add_library(SampleFetchContent "Vec2.h" "Vec2.cpp")
+add_library(SampleFetchContent Vec2.h Vec2.cpp)
