@@ -2,4 +2,8 @@
 
 project(SampleFetchContent VERSION 1.0)
 
-add_subdirectory(src)
+add_library(
+	SampleFetchContent
+	src/Vec2.h
+	src/Vec2.cpp
+)
