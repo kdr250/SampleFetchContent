@@ -2,5 +2,4 @@
 
 project(SampleFetchContent VERSION 1.0 LANGUAGES CXX)
 
-add_library(SampleFetchContent INTERFACE)
-target_include_directories(SampleFetchContent INTERFACE src/)
+add_library(SampleFetchContent SHARED src/Vec2.hpp src/Vec2.cpp)
